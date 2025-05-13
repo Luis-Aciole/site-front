@@ -15,6 +15,7 @@
             <a href="catálogo.html" class="btn btn-outline-light">Catálogo</a>
             <a href="Sobre.html" class="btn btn-outline-light">Sobre</a>
             <a href="contato.html" class="btn btn-outline-light">Contato</a>
+            <a href="Carrinho.html" class="btn btn-outline-light">Carrinho</a>
         </div>
     </header>
  <div class="slider">
@@ -56,7 +57,7 @@
                         <h5 class="card-title">Console Playstation 5 Pro Sony, SSD 2TB, Com Controle Sem Fio DualSense, Branco</h5>
                         <p class="card-text">O PlayStation 5 é o console de última geração da Sony, oferecendo gráficos incríveis com tecnologia Ray Tracing, carregamento ultra-rápido com SSD personalizado e uma experiência imersiva com o controle DualSense. Ideal para quem busca jogos com alta performance, realismo e exclusividades aclamadas, como Spider-Man: Miles Morales e Horizon Forbidden West. Design moderno e desempenho potente para a nova era dos games.</p>
                         <div class="text-success fw-bold mb-2 mt-2">R$6.499,99</div>
-                        <button class="btn btn-azul mt-auto">Adicionar ao carrinho</button>
+                        <button class="btn btn-azul mt-auto" onclick="adicionarAoCarrinho('PlayStation 5 Pro', 6499.99)">Adicionar ao carrinho</button>
                     </div>
                 </div>
             </div>
@@ -67,7 +68,7 @@
                         <h5 class="card-title">Monitor Gamer LG UltraGear 27" FHD, IPS, 180Hz, 1ms GTG, HDR10, DisplayPort e HDMI, G-Sync, FreeSync, Preto</h5>
                         <p class="card-text">O Monitor Gamer LG UltraGear 24GN60R-B de 24 polegadas oferece uma experiência imersiva para jogadores que buscam desempenho e qualidade de imagem. Com resolução Full HD (1920x1080), painel IPS e taxa de atualização de 180Hz, proporciona imagens nítidas e movimentos suaves. O tempo de resposta de 1ms (GtG) garante reações rápidas em jogos competitivos.</p>
                         <div class="text-success fw-bold mb-2 mt-2">R$ 899,99</div>
-                        <button class="btn btn-azul mt-auto">Adicionar ao carrinho</button>
+                        <button class="btn btn-azul mt-auto" onclick="adicionarAoCarrinho('Monitor LG UltraGear 27pol', 899.99)">Adicionar ao carrinho</button>
                     </div>
                 </div>
             </div>
@@ -80,12 +81,15 @@
 Bateria: De 4,5 a 9 horas de duração, dependendo do modelo e do tipo de jogo.
 Controles Joy-Con: Dois controladores destacáveis que se encaixam nas laterais do console. Cada um tem sensores de movimento, vibração HD e pode ser usado de forma independente para jogos multiplayer local.</p>
                         <div class="text-success fw-bold mb-2">R$ 1.999,90</div>
-                        <button class="btn btn-azul mt-auto">Adicionar ao carrinho</button>
+                        <button class="btn btn-azul mt-auto" onclick="adicionarAoCarrinho('Nintendo Switch', 1999.90)">Adicionar ao carrinho</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="scripts.js"></script>
+    
     <footer class="bg-dark text-white text-center py-3 mt-4">
         &copy; Omnidex. Todos os direitos reservados.
     </footer>

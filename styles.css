@@ -150,3 +150,7 @@ input[type="radio"] {
 #radio3:checked ~ .slides {
     margin-left: -200vw;
 }
+
+#lista-carrinho li {
+    padding: 1rem;
+}
