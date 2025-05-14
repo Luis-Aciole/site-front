@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="bg-dark text-white text-center py-4 mb-4">
-        <img src="imgs/LOGO OMINIDEX0000.png" class="img-fluid" width="160" height="1" alt="Logo Omni Index" class="mb-3">
+        <img src="imgs/ominidex2.png" class="img-fluid" width="160" height="1" alt="Logo Omni Index" class="mb-3">
         <div class="d-flex justify-content-center gap-2 mt-3">
             <a href="index.html" class="btn btn-outline-light">Início</a>
             <a href="catálogo.html" class="btn btn-outline-light">Catálogo</a>
@@ -26,67 +26,165 @@
             <!-- Produto 1 -->
             <div class="col-md-3 mb-4">
                 <div class="card h-100">
-                    <img src="imgs/console-playstation-5-pro-sony-ssd-2tb-controle-sem-fio-dualsense-branco-1000046552_1727095996_gg.webp" class="card-img-top" alt="Produto 1">
+                    <img src="imgs/console-playstation-5.webp" class="card-img-top" alt="Produto 1">
                     <div class="card-body d-flex flex-column">
                         <div>
                             <h5 class="card-title">Console Playstation 5 Pro</h5>
-                            <p class="card-text">O PlayStation 5 é o console de última geração da Sony, oferecendo gráficos incríveis com tecnologia Ray Tracing, carregamento ultra-rápido com SSD personalizado e uma experiência imersiva com o controle DualSense...</p>
+                            <p class="card-text">O PlayStation 5 é o console de última geração da Sony...</p>
                         </div>
                         <div class="mt-auto">
                             <div class="text-success fw-bold mb-2">R$ 6.499,99</div>
-                            <a href="produtos.html#produto1" class="btn btn-primary w-100">Ver detalhes</a>
+                            <button class="btn btn-primary w-100" onclick="abrirModal(1, 'PlayStation 5 Pro', 'imgs/console-playstation-5.webp', 'PlayStation 5 Pro: SSD 1TB, até 8K, 4K/120Hz, ray tracing, mídia física/digital, retrocompatível com PS4.', 6499.99)">Ver detalhes</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-           <!-- Produto 2-->
+           <!-- Produto 4-->
             <div class="col-md-3 mb-4">
                 <div class="card h-100">
-                    <img src="imgs/Fone de Ouvido0000.jpg" class="card-img-top" alt="Produto 1">
+                    <img src="imgs/Fone de Ouvido0000.jpg" class="card-img-top" alt="Produto 2">
                     <div class="card-body d-flex flex-column">
                         <div>
                             <h5 class="card-title">Fone de Ouvido</h5>
-                            <p class="card-text"> O Fone de Ouvido Bluetooth Sem Fio TWS V5.0 oferece liberdade total para curtir suas músicas favoritas com praticidade e estilo. Com design compacto, sem borrachas, e acabamento na cor branca, é ideal para quem busca conforto durante o uso prolongado. A tecnologia Bluetooth 5.0 garante conexão estável, baixo consumo de energia e excelente qualidade sonora. Perfeito para o dia a dia, chamadas ou momentos de lazer, com um visual discreto e moderno.
-</p>
+                            <p class="card-text">Fone de Ouvido Bluetooth Sem Fio...</p>
                         </div>
                         <div class="mt-auto">
                             <div class="text-success fw-bold mb-2">R$ 89,00</div>
-                            <a href="produtos.html#produto1" class="btn btn-primary w-100">Ver detalhes</a>
+                            <button class="btn btn-primary w-100" onclick="abrirModal(4,'Fone de Ouvido', 'imgs/Fone de Ouvido0000.jpg', 'Fone de Ouvido Bluetooth: Sem fio, microfone embutido, bateria 5-8h, controle por toque/botão.', 89)">Ver detalhes</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Produto 3 -->
+            <!-- Produto 5 -->
             <div class="col-md-3 mb-4">
                 <div class="card h-100">
                     <img src="imgs/IMG_2941.jpg" class="card-img-top" alt="Produto 3">
                     <div class="card-body d-flex flex-column">
                         <div>
                             <h5 class="card-title">Smartwatch</h5>
-                            <p class="card-text">Monitore sua saúde e estilo de vida com este smartwatch de última geração. Com tela vibrante, monitoramento de batimentos e mais.</p>
+                            <p class="card-text">Monitore sua saúde e estilo de vida com este smartwatch...</p>
                         </div>
                         <div class="mt-auto">
                             <div class="text-success fw-bold mb-2">R$ 799,90</div>
-                            <a href="produtos.html#produto3" class="btn btn-primary w-100">Ver detalhes</a>
+                            <button class="btn btn-primary w-100" onclick="abrirModal(5,'Smartwatch', 'imgs/IMG_2941.jpg', 'Smartwatch: Monitor cardíaco, passos, sono, notificações, tela touch, Bluetooth, compatível com Android/iOS, bateria 5-10 dias.', 799.90)">Ver detalhes</button>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Produto 4 -->
+            <!-- Produto 2 -->
             <div class="col-md-3 mb-4">
                 <div class="card h-100">
                     <img src="imgs/monitor-gamer-lg-ultragear-27-ips-full-hd-180hz-1ms-displayport-e-hdmi-g-sync-freesync-hdr10-srgb-99-preto-27gs60f-b_1725043961_gg.webp" class="card-img-top" alt="Produto 4">
                     <div class="card-body d-flex flex-column">
                         <div>
-                            <h5 class="card-title">Monitor Gamer LG UltraGear 27" FHD, IPS, 180Hz, 1ms GTG, HDR10, DisplayPort e HDMI, G-Sync, FreeSync, Preto</h5>
-                            <p class="card-text">O Monitor Gamer LG UltraGear 24GN60R-B de 24 polegadas oferece uma experiência imersiva para jogadores que buscam desempenho e qualidade de imagem. Com resolução Full HD (1920x1080), painel IPS e taxa de atualização de 180Hz, proporciona imagens nítidas e movimentos suaves. O tempo de resposta de 1ms (GtG) garante reações rápidas em jogos competitivos.</p>
+                            <h5 class="card-title">Monitor Gamer LG UltraGear 27"</h5>
+                            <p class="card-text">O Monitor Gamer LG UltraGear 24GN60R-B...</p>
                         </div>
                         <div class="mt-auto">
                             <div class="text-success fw-bold mb-2">R$ 899,99</div>
-                            <a href="produtos.html#produto4" class="btn btn-primary w-100">Ver detalhes</a>
+                            <button class="btn btn-primary w-100" onclick="abrirModal(2,'Monitor Gamer LG UltraGear 27', 'imgs/monitor-gamer-lg-ultragear-27-ips-full-hd-180hz-1ms-displayport-e-hdmi-g-sync-freesync-hdr10-srgb-99-preto-27gs60f-b_1725043961_gg.webp', 'Monitor Gamer LG UltraGear 27: 27, Full HD/QHD, 144Hz+, 1ms, painel IPS, G-Sync/FreeSync.', 899.99)">Ver detalhes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+        <!-- Produto 6 -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <img src="imgs/61KfG0-kIiL.png" class="card-img-top" alt="Produto 6">
+                <div class="card-body d-flex flex-column">
+                    <div>
+                        <h5 class="card-title">Nintendo Switch</h5>
+                        <p class="card-text">O Nintendo Switch é um console híbrido desenvolvido pela Nintendo, lançado em março de 2017. Seu principal diferencial é a versatilidade...</p>
+                        </div>
+                        <div class="mt-auto">
+                            <div class="text-success fw-bold mb-2">R$ 1.999,90</div>
+                            <button class="btn btn-primary w-100" onclick="abrirModal(3,'Nintendo Switch', 'imgs/61KfG0-kIiL.png', 'Nintendo Switch: Console híbrido, tela 6.2 touch, 720p portátil / 1080p dock, 32GB expansível, Joy-Con destacáveis.', 1999.99)">Ver detalhes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Produto 7 -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="imgs/switch2.jpg" class="card-img-top" alt="Produto 7">
+                    <div class="card-body d-flex flex-column">
+                        <div>
+                            <h5 class="card-title">Nintendo Switch 2</h5>
+                            <p class="card-text">A Nintendo anunciou um modelo atualizado do console que difere do modelo original na longevidade da bateria.Enquanto o modelo original da Nintendo Switch ...</p>
+                        </div>
+                    <div class="mt-auto">
+                        <div class="text-success fw-bold mb-2">R$ 4.438,13</div>
+                        <button class="btn btn-primary w-100" onclick="abrirModal(6, 'Nintendo Switch 2', 'imgs/switch2.jpg', 'Nintendo Switch 2: Modelo atualizado com melhor desempenho e bateria, tela maior/OLED, compatível com jogos do Switch.', 4438.13)">Ver detalhes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Produto 8 -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <img src="imgs/Asus-Rog-Ally.webp" class="card-img-top" alt="Produto 8">
+                <div class="card-body d-flex flex-column">
+                    <div>
+                        <h5 class="card-title">Asus Rog Ally X Z1 Extreme</h5>
+                        <p class="card-text">Equipado com um processador amd ryzen z1 extreme, uma tela sensível ao toque suave de 7 polegadas 1080p 120hz com tecnologia premium amd freesync e resfriamento inteligente rog, o rog ally leva os jogos portáteis a um nível totalmente diferente....</p>
+                    </div>
+                    <div class="mt-auto">
+                        <div class="text-success fw-bold mb-2">R$ 14.724,00</div>
+                        <button class="btn btn-primary w-100" onclick="abrirModal(7, 'Asus Rog Ally X Z1 Extreme', 'imgs/Asus-Rog-Ally.webp', 'Asus ROG Ally X Z1 Extreme: Ryzen Z1 Extreme, tela 7 1080p 120Hz touch, 16GB RAM, SSD 512GB/1TB, Windows 11, portátil para jogos AAA.', 14724.0)">Ver detalhes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Produto 9 -->
+        <div class="col-md-3 mb-4">
+            <div class="card h-100">
+                <img src="imgs/XboxseriesX.webp" class="card-img-top" alt="Produto 9">
+                <div class="card-body d-flex flex-column">
+                    <div>
+                        <h5 class="card-title">XBOX Series S</h5>
+                        <p class="card-text">Desempenho de última geração no menor xbox de todos os tempos. Entre no mundo digital com o xbox series s e crie uma biblioteca de jogos digitais. Seus jogos, salvamentos e backups digitais estão seguros na nuvem. ...</p>
+                    </div>
+                    <div class="mt-auto">
+                        <div class="text-success fw-bold mb-2">R$ 3.230,91</div>
+                        <button class="btn btn-primary w-100" onclick="abrirModal(8, 'XBOX Series S', 'imgs/XboxseriesX.webp', 'Xbox Series S: SSD 512GB, até 1440p (4K upscale), ray tracing, 100% digital, retrocompatível com gerações anteriores, até 120fps.', 3230.91)">Ver detalhes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- Modal de Detalhes do Produto -->
+    <div class="modal fade" id="modalProduto" tabindex="-1" aria-labelledby="modalProdutoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProdutoLabel">Detalhes do Produto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <!-- Imagem do Produto -->
+                        <div class="col-md-6">
+                            <img id="modalImagem" src="" alt="Produto" class="img-fluid mb-3">
+                            <p id="modalDescricao" class="text-muted" style="height: 200px; overflow-y: auto;"></p>
+                        </div>
+                        <!-- Preço e Botão -->
+                        <div class="col-md-6 d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="text-success" id="modalPreco"></h4>
+                            </div>
+                            <button class="btn btn-primary mt-4" id="modalBotaoAdicionar">Adicionar ao Carrinho</button>
                         </div>
                     </div>
                 </div>
@@ -94,6 +192,9 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+    
     <footer class="bg-dark text-white text-center py-3 mt-4">
         &copy; Ominidex. Todos os direitos reservados.
     </footer>
